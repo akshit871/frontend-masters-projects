@@ -1,0 +1,106 @@
+.title {
+  box-sizing: border-box;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-clippings {
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.clipping {
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.clipping p {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.clipping-title {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.clip-one {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip-two {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip-two img {
+  width: 95%;
+}
+
+.clip-three {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip-four {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip-five {
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  flex-grow: 1;
+  padding-top: 2%;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.category a {
+  text-decoration: none;
+  color: #666;
+}
+
+.category a:hover {
+  text-decoration: underline;
+}
+
+.category-1 {
+  background-color: #ffeaa7;
+}
+
+.category-2 {
+  background-color: #81ecec;
+}
+
+.category-3 {
+  background-color: #55efc4;
+}
+
+.category-4 {
+  background-color: #74b9ff;
+}
+
+.category-5 {
+  background-color: #a29bfe;
+}
