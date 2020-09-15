@@ -148,6 +148,12 @@ sketch
 !.vscode/extensions.json
 *.code-workspace
 
+### Folders ###
+getting-into-javascript/*
+mastering-chrome-devtools/*
+pop-motion/*
+sample-webapp/*
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
